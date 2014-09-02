@@ -1,48 +1,45 @@
 @font-face {
-	font-family: 'FontAwesome';
-	src: url('fonts/fontawesome-webfont.eot');
-	src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/fontawesome-webfont.woff') format('woff'),
-        url('fonts/fontawesome-webfont.ttf') format('truetype'),
-		url('fonts/fontawesome-webfont.svg#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'FontAwesome';
+    src: url('fonts/fontawesome-webfont.eot');
+    src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff') format('woff'), url('fonts/fontawesome-webfont.ttf') format('truetype'), url('fonts/fontawesome-webfont.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 .mdm-buttons [data-mdm-icon]:before {
-	font-family: 'FontAwesome', symbol;
-	content: attr(data-icon);
-	speak: none;
+    font-family: 'FontAwesome', symbol;
+    content: attr(data-icon);
+    speak: none;
 }
 
 /* Use the following CSS code if you want to have a class per icon */
 .mdm-buttons [class^="mdm-icon-"]:before, [class*=" mdm-icon-"]:before {
-	font-family: 'FontAwesome', symbol;
-	font-style: normal;
-	speak: none;
+    font-family: 'FontAwesome', symbol;
+    font-style: normal;
+    speak: none;
 }
 
-.mdm-buttons .mdm-icon-bold:before {
-	content: "\f032";
+.mdm-icon-bold:before {
+    content: "\f032";
 }
 
-.mdm-buttons .mdm-icon-title:before {
-	content: "\f0fd";
+.mdm-icon-title:before {
+    content: "\f0fd";
 }
 
-.mdm-buttons .mdm-icon-italic:before {
-	content: "\f033";
+.mdm-icon-italic:before {
+    content: "\f033";
 }
 
-.mdm-buttons .mdm-icon-underline:before {
-	content: "\f0cd";
+.mdm-icon-underline:before {
+    content: "\f0cd";
 }
 
-.mdm-buttons .mdm-icon-list:before {
-	content: "\f0ca";
+.mdm-icon-list:before {
+    content: "\f0ca";
 }
 
-.mdm-buttons .mdm-icon-link:before {
-	content: "\f08e";
+.mdm-icon-link:before {
+    content: "\f08e";
 }

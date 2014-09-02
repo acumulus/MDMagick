@@ -1,48 +1,48 @@
 @keyframes slideOut {
-  from { max-height: 0px; }
+  from { max-height: 0; }
   to { max-height: 500px; }
 }
 
 @keyframes slideIn {
   from { max-height: 500px; }
-  to { max-height: 0px; }
+  to { max-height: 0; }
 }
 
 @-webkit-keyframes slideOut {
-  from { max-height: 0px; }
+  from { max-height: 0; }
   to { max-height: 500px; }
 }
 
 @-webkit-keyframes slideIn {
   from { max-height: 500px; }
-  to { max-height: 0px; }
+  to { max-height: 0; }
 }
 
 @-o-keyframes slideOut {
-  from { max-height: 0px; }
+  from { max-height: 0; }
   to { max-height: 500px; }
 }
 
 @-o-keyframes slideIn {
   from { max-height: 500px; }
-  to { max-height: 0px; }
+  to { max-height: 0; }
 }
 
 @-moz-keyframes slideOut {
-  from { max-height: 0px; }
+  from { max-height: 0; }
   to { max-height: 500px; }
 }
 
 @-moz-keyframes slideIn {
   from { max-height: 500px; }
-  to { max-height: 0px; }
+  to { max-height: 0; }
 }
 
 div.mdm-buttons,
 div.mdm-preview {
   line-height: 1em;
-  padding: 0px;
-  max-height: 0px;
+  padding: 0;
+  max-height: 0;
   overflow: hidden;
   background-color: white;
   box-sizing: border-box;
@@ -78,7 +78,6 @@ div.mdm-preview.focus {
 
 div.mdm-buttons {
   width: 148px;
-
   font-size: 12px;
 }
 
@@ -86,22 +85,22 @@ div.mdm-buttons ul {
   margin: 10px;
 }
 
-div.mdm-buttons ul li{
+div.mdm-buttons ul li {
   display: inline;
   margin: 0;
 }
 
-div.mdm-buttons ul li a{
+div.mdm-buttons ul li a {
   padding: 5px;
   color: black;
   text-decoration: none;
 }
 
-div.mdm-buttons ul li a span{
+div.mdm-buttons ul li a span {
   display: none;
 }
 
-div.mdm-buttons ul li a:active{
+div.mdm-buttons ul li a:active {
   color: #ccc;
   position: relative;
   top: 1px;
@@ -120,10 +119,7 @@ div.mdm-preview ul {
   list-style-type: disc;
 }
 
-
-div.mdm-preview h1,
-div.mdm-preview h2,
-div.mdm-preview h3{
+div.mdm-preview h1, div.mdm-preview h2, div.mdm-preview h3 {
   font-weight: bold;
 }
 

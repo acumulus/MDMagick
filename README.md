@@ -2,7 +2,7 @@
 
 jQuery plugin to add MarkDown butttons and preview to any kind of input field.
 
-Check the [demo page](http://fguillen.github.com/MDMagick)
+Check the [demo page](http://acumulus.github.com/MDMagick)
 
 ## How it works
 
@@ -14,11 +14,11 @@ A special control buttons will be added on top of the selected input field with 
 * list
 * title
 
-And a preview div will be added on the bottom of the selected input field with a MarkDown previsualization of the selected input field content.
+And a preview div will be added on the bottom of the selected input field with a MarkDown preview of the selected input field content.
 
 ## Version
 
-* 0.0.1 (but already in production applications)
+* 0.0.3 (but already in production applications)
 
 ## Usage
 
@@ -41,9 +41,20 @@ Adding the special class `mdm-input` to any input field:
 
 Tested in:
 
-* (OSX) Chrome 21.0.1180.57
-* (OSX) Firefox 8.0.1
-* (OSX) Safari 6.0
+| Browser Version      | Windows | Mac OS X | Linux | iOS | Android |
+|:-------------------- |:-------:|:--------:|:-----:|:---:|:-------:|
+| Internet Explorer 6  | Yes     |          |       |     |         |
+| Internet Explorer 7  | Yes     |          |       |     |         |
+| Internet Explorer 8  | Yes     |          |       |     |         |
+| Internet Explorer 9  | Yes     |          |       |     |         |
+| Internet Explorer 10 | Yes     |          |       |     |         |
+| Internet Explorer 11 | Yes     |          |       |     |         |
+| Chrome 21.0.1180.57  |         | Yes      |       |     |         |
+| Chrome 29.0.1547.65  |         |          | Yes   |     |         |
+| Firefox 8.0.1        |         | Yes      |       |     |         |
+| Firefox 32.0.1       |         |          | Yes   |     |         |
+| Safari 6.0           |         | Yes      |       |     |         |
+| Opera 11.0           |         |          | Yes   |     |         |
 
 ## Dependencies
 
@@ -53,7 +64,7 @@ Tested in:
 
 ## Install
 
-##### 1. Download [the last version of the code](https://github.com/fguillen/MDMagick/zipball/master).
+##### 1. Download [the last version of the code](https://github.com/acumulus/MDMagick/zipball/master).
 ##### 2. Unzip the package
 ##### 3. Copy `vendor`, `lib` and `assets` folders to a _public_ folder in your web application. Let's call it `mdmagick`.
 ##### 4. Import the dependencies:
@@ -68,8 +79,8 @@ Tested in:
 
 ##### 6. Import the mdmagick styles and icons
 
-    <link rel="stylesheet" href="./mdmagick/assets/mdmagick.css" ></style>
-    <link rel="stylesheet" href="./mdmagick/assets/icon_font/style.css" />
+    <link rel="stylesheet" href="./mdmagick/assets/mdmagick.css">
+    <link rel="stylesheet" href="./mdmagick/assets/icon_font/style.css">
     <!--[if lte IE 7]><script src="./mdmagick/assets/icon_font/lte-ie7.js"></script><![endif]-->
 
 ##### 7. You are ready!
@@ -78,7 +89,7 @@ Tested in:
 
 ## FAQ
 
-### How to silent the log:
+### How to silence the log:
 
 Add:
 
@@ -88,7 +99,6 @@ Before the:
 
     <script src="./lib/mdmagick.js" type="text/javascript" charset="utf-8"></script>
 
-
 ## TODO
 
 * Check for performance issues
@@ -97,7 +107,6 @@ Before the:
 ## Attributions
 
 * Icons used in the control div from: [IcoMoon](http://keyamoon.com/icomoon/#toHome)
-
 
 ## License
 
