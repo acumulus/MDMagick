@@ -1,5 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-  "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
   <title>MDMagick Jasmine Specs</title>
@@ -17,7 +16,7 @@
   <script type="text/javascript" src="../vendor/a-tools.js"></script>
 
   <script type="text/javascript" src="../lib/mdmagick.js"></script>
-  <link rel="stylesheet" href="../assets/mdmagick.css" ></style>
+  <link rel="stylesheet" href="../assets/mdmagick.css">
 
   <script type="text/javascript">
     (function() {
@@ -47,24 +46,27 @@
 
     })();
   </script>
-
 </head>
 
 <body>
   <section id="section-1">
-    <textarea id="textarea-1"></textarea>
+    <label for="textarea-1">Text area 1</label>
+    <textarea id="textarea-1" cols="100" rows="3"></textarea>
   </section>
 
   <section id="section-2">
-    <textarea id="textarea-2" class="mdm-input">This is the text, with **bold** and _italic_.</textarea>
+    <label for="textarea-2">Text area 2</label>
+    <textarea id="textarea-2" cols="100" rows="3" class="mdm-input">This is the text, with **bold** and _italic_.</textarea>
   </section>
 
   <section id="section-3">
-    <textarea id="textarea-3"></textarea>
+    <label for="textarea-3">Text area 3</label>
+    <textarea id="textarea-3" cols="100" rows="3"></textarea>
   </section>
 
   <section id="section-4">
-    <textarea id="textarea-4" class="mdm-input"></textarea>
+    <label for="textarea-4">Text area 4</label>
+    <textarea id="textarea-4" cols="100" rows="3" class="mdm-input"></textarea>
   </section>
 </body>
 </html>
