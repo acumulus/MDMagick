@@ -87,22 +87,24 @@ div.mdm-buttons ul {
 div.mdm-buttons ul li {
   display: inline;
   margin: 0;
-}
-
-div.mdm-buttons ul li a {
   padding: 5px;
   color: black;
   text-decoration: none;
 }
 
-div.mdm-buttons ul li a span {
-  display: none;
+div.mdm-buttons ul li.mdm-button:hover {
+  color: white;
+  background-color: #4c97cc;
 }
 
-div.mdm-buttons ul li a:active {
+div.mdm-buttons ul li.mdm-button:active {
   color: #ccc;
   position: relative;
   top: 1px;
+}
+
+div.mdm-buttons ul li.mdm-separator {
+  color: darkgray;
 }
 
 div.mdm-preview strong {
